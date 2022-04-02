@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link href="CSS/style.css" rel="stylesheet" type="text/css" />
+        <link href="CSS/contacts.css" rel="stylesheet" type="text/css" />
+        <title>Contact us</title>
+    </head>
+    
+    <body>
+        <iframe 
+            class="header" 
+            src="header.html" 
+            frameborder="0" 
+            width="100%" 
+            height="100px"
+        >
+        </iframe>
+
+        <main>
+            <nav>
+                <a href="index.html" target="_self">Planet</a>
+            </nav>
+            
+            <h1>INQUIRY TO CUSTOMER SERVICE DEPARTMENT</h1>
+
+            <div class="contacts_container">
+                <div class="form_container">
+                    <form  action="" method="post">
+
+                        <label for="titleName">Title:</label>
+                        <select class="input_data" id="titleName">
+                            <option>Mr.</option>
+                            <option>Mrs.</option>
+                            <option>Mrs.</option>
+                            <option>Miss</option>
+                        </select>
+
+                        <label for="titleName">Title:</label>
+                        <select class="input_data" id="titleName">
+                            <option>Mr.</option>
+                            <option>Mrs.</option>
+                            <option>Miss</option>
+                        </select>
+
+                        <label for="fName">First name:</label>
+                        <input 
+                            class="input_data" 
+                            type="text" 
+                            name="fName" 
+                            id="fName"
+                        >
+
+                        <label for="lName">Last name:</label>
+                        <input 
+                            class="input_data" 
+                            type="text" 
+                            name="lName" 
+                            id="lName"
+                        >
+
+                        <label for="phone">Contact telephone number:</label>
+                        <input 
+                            class="input_data" 
+                            type="tel" 
+                            name="phoneNumber" 
+                            id="phone" 
+                            placeholder="+359 88 123 456"
+                        > 
+
+                        <label for="id_email">Email:</label>
+                        <input 
+                            class="input_data" 
+                            type="email" 
+                            name="email" 
+                            id="id_email"
+                        >  
+
+                        <label for="id_connectionWith">You are filling out this form in connection with:</label>
+                        <select 
+                            class="input_data" 
+                            id="id_connectionWith" 
+                            name="connectionWith" 
+                        >
+                            <option>Inquiry</option>
+                            <option>Proposal</option>
+                            <option>Recommendation</option>
+                            <option>Complaining</option>
+                        </select>
+
+                        <label for="id_comments">Comments:</label>
+                        <textarea 
+                            type="text" 
+                            id="id_comments" 
+                            name="comments"  
+                            cols="20" 
+                            rows="2"
+                        >
+                        </textarea>
+
+                        <div class="select_data">
+                            <div>Select preferred method of contact:</div>
+                            <input type="radio" name="methotd_of_contact" id="id_by_email">
+                            <label for="id_by_email">By Email</label>
+                        </div>
+
+                        <div>
+                            <input type="radio" name="methotd_of_contact" id="id_by_Phone">
+                            <label for="id_by_Phone">By Phone</label>
+                        </div>
+
+                        <div class="select_data">
+                            <input type="checkbox" name="provide_personal_data" id="id_provide_personal_data">
+                            <label for="id_provide_personal_data">
+                                I am aware that I provide personal data in this form completely voluntarily.
+                                I am informed that my personal data included in this form or contained in 
+                                attachments will be used by Solar System Ltd. for the necessary checks in
+                                connection with my request. 
+                            </label>
+                        </div>
+
+                        <div class="button">
+                            <input type="button" value="Send" id="id_send_button">
+                            <input type="button" value="Reset" id="id_reset_button">
+                        </div>
+                    </form>
+                </div>
+                <div class="information_contact_container">
+                    <p>
+                        Solar System Ltd.
+                        <br>
+                        zh.k. Mladost 4, Business Park Sofia, building 6
+                        <br>
+                        1766 Sofia
+                        <br>
+                        Tel: 123 - for Yettel subscribers
+                        <br>
+                        Tel: 089 123 - for subscribers of other operators
+                        <br>
+                        Tel: +359 89 123 - for subscribers abroad
+                        <br>
+                        Prices for calls to the Solar System Ltd. Customer Service Center at number 123.
+                    </p>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
